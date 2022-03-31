@@ -1,7 +1,7 @@
 package uz.mahmudxon.halqa.business.interactors.app
 
 import android.util.Log
-import uz.mahmudxon.halqa.business.domain.util.TAG
+import uz.mahmudxon.halqa.util.TAG
 import java.io.IOException
 import java.net.InetSocketAddress
 import javax.net.SocketFactory

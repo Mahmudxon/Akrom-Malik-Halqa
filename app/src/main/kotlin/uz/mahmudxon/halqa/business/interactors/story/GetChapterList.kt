@@ -9,7 +9,7 @@ import uz.mahmudxon.halqa.business.domain.data.DataState
 import uz.mahmudxon.halqa.business.domain.model.Chapter
 
 
-class GetStoriesList(
+class GetChapterList(
     private val dao: StoryDao,
     private val storyEntityMapper: StoryEntityMapper
 ) {

@@ -4,7 +4,7 @@ import kotlinx.coroutines.flow.flow
 import uz.mahmudxon.halqa.business.datasource.db.story.StoryDao
 import uz.mahmudxon.halqa.business.datasource.db.story.StoryEntityMapper
 
-class UpdateStory(
+class UpdateChapter(
     private val dao: StoryDao,
     private val storyEntityMapper: StoryEntityMapper
 ) {
