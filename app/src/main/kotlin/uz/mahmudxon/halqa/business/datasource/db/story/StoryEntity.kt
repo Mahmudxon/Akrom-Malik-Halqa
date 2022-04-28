@@ -7,7 +7,7 @@ import androidx.room.PrimaryKey
 data class StoryEntity(
     @PrimaryKey
     val id: Int,
-    val title: String,
-    val description: String,
-    var story: String? = null
+    val title: String?,
+    val description: String?,
+    var story: String?
 )

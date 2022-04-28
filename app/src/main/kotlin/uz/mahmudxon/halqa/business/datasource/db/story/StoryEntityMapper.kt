@@ -7,8 +7,8 @@ class StoryEntityMapper : DomainMapper<StoryEntity, Chapter> {
     override fun mapToDomainModel(model: StoryEntity): Chapter {
         return Chapter(
             chapterNumber = model.id,
-            title = model.title,
-            description = model.description,
+            title = "${model.title}",
+            description = model.description ?: "",
             story = "${model.story}"
         )
     }

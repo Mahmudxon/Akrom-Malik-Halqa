@@ -4,6 +4,7 @@ import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.components.ViewModelComponent
+import dagger.hilt.components.SingletonComponent
 import uz.mahmudxon.halqa.business.datasource.db.story.StoryDao
 import uz.mahmudxon.halqa.business.datasource.db.story.StoryEntityMapper
 import uz.mahmudxon.halqa.business.interactors.story.GetChapter
@@ -11,7 +12,7 @@ import uz.mahmudxon.halqa.business.interactors.story.GetChapterList
 import uz.mahmudxon.halqa.business.interactors.story.UpdateChapter
 
 @Module
-@InstallIn(ViewModelComponent::class)
+@InstallIn(SingletonComponent::class)
 object InteractorsModule {
 
     @Provides
